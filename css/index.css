@@ -9,6 +9,7 @@
 }
 body {
   background: url(../image/bg.jpg) no-repeat top center;
+  overflow: hidden;
 }
 header {
   position: relative;
@@ -61,7 +62,6 @@ header .showTime {
 }
 .mainbox .panel .chart {
   height: 2.6rem;
-  background-color: skyblue;
 }
 .mainbox .panel:before {
   position: absolute;
@@ -193,8 +193,8 @@ header .showTime {
 }
 .map .map2 {
   position: absolute;
-  width: 6.8375rem;
-  height: 6.8375rem;
+  width: 6.6375rem;
+  height: 6.6375rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
