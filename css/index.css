@@ -54,11 +54,21 @@ header .showTime {
   background: url(../image/line.png) rgba(255, 255, 255, 0.04);
 }
 .mainbox .panel h2 {
+  position: relative;
   height: 0.5rem;
   line-height: 0.5rem;
   color: #ffffff;
   font-size: 0.25rem;
   text-align: center;
+}
+.mainbox .panel h2 a {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 0.2rem;
+  margin-left: 50px;
+}
+.mainbox .panel h2 a:nth-child(2) {
+  margin-left: 106px;
 }
 .mainbox .panel .chart {
   height: 2.6rem;
